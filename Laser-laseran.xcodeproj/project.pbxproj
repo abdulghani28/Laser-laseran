@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051DE05C2A1F8A45002DB2F9 /* MultipeerSession in Frameworks */ = {isa = PBXBuildFile; productRef = 051DE05B2A1F8A45002DB2F9 /* MultipeerSession */; };
+		051DE05E2A1F92C6002DB2F9 /* lasergreen.reality in Resources */ = {isa = PBXBuildFile; fileRef = 051DE05D2A1F92C6002DB2F9 /* lasergreen.reality */; };
 		055395692A1E24A8005344CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055395682A1E24A8005344CE /* AppDelegate.swift */; };
 		0553956B2A1E24A8005344CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0553956A2A1E24A8005344CE /* ViewController.swift */; };
 		0553956D2A1E24A8005344CE /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 0553956C2A1E24A8005344CE /* Experience.rcproject */; };
 		055395702A1E24A8005344CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0553956E2A1E24A8005344CE /* Main.storyboard */; };
 		055395722A1E24A9005344CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055395712A1E24A9005344CE /* Assets.xcassets */; };
 		055395752A1E24A9005344CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055395732A1E24A9005344CE /* LaunchScreen.storyboard */; };
+		056FC6032A1E59AC00BB213F /* LaserRed.reality in Resources */ = {isa = PBXBuildFile; fileRef = 056FC6022A1E59AC00BB213F /* LaserRed.reality */; };
+		056FC6072A1F703200BB213F /* robot.reality in Resources */ = {isa = PBXBuildFile; fileRef = 056FC6062A1F703200BB213F /* robot.reality */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051DE05D2A1F92C6002DB2F9 /* lasergreen.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = lasergreen.reality; path = ../../../../Downloads/lasergreen.reality; sourceTree = "<group>"; };
 		055395652A1E24A8005344CE /* Laser-laseran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Laser-laseran.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		055395682A1E24A8005344CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0553956A2A1E24A8005344CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +28,8 @@
 		0553956F2A1E24A8005344CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		055395712A1E24A9005344CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055395742A1E24A9005344CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		056FC6022A1E59AC00BB213F /* LaserRed.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = LaserRed.reality; path = ../../LaserRed.reality; sourceTree = "<group>"; };
+		056FC6062A1F703200BB213F /* robot.reality */ = {isa = PBXFileReference; lastKnownFileType = file; name = robot.reality; path = ../../../../Downloads/robot.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051DE05C2A1F8A45002DB2F9 /* MultipeerSession in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +65,9 @@
 			children = (
 				055395682A1E24A8005344CE /* AppDelegate.swift */,
 				0553956A2A1E24A8005344CE /* ViewController.swift */,
+				051DE05D2A1F92C6002DB2F9 /* lasergreen.reality */,
+				056FC6062A1F703200BB213F /* robot.reality */,
+				056FC6022A1E59AC00BB213F /* LaserRed.reality */,
 				0553956C2A1E24A8005344CE /* Experience.rcproject */,
 				0553956E2A1E24A8005344CE /* Main.storyboard */,
 				055395712A1E24A9005344CE /* Assets.xcassets */,
@@ -81,6 +92,9 @@
 			dependencies = (
 			);
 			name = "Laser-laseran";
+			packageProductDependencies = (
+				051DE05B2A1F8A45002DB2F9 /* MultipeerSession */,
+			);
 			productName = "Laser-laseran";
 			productReference = 055395652A1E24A8005344CE /* Laser-laseran.app */;
 			productType = "com.apple.product-type.application";
@@ -109,6 +123,9 @@
 				Base,
 			);
 			mainGroup = 0553955C2A1E24A8005344CE;
+			packageReferences = (
+				051DE05A2A1F8A45002DB2F9 /* XCRemoteSwiftPackageReference "multipeer-session" */,
+			);
 			productRefGroup = 055395662A1E24A8005344CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,7 +141,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				055395752A1E24A9005344CE /* LaunchScreen.storyboard in Resources */,
+				056FC6032A1E59AC00BB213F /* LaserRed.reality in Resources */,
 				055395722A1E24A9005344CE /* Assets.xcassets in Resources */,
+				056FC6072A1F703200BB213F /* robot.reality in Resources */,
+				051DE05E2A1F92C6002DB2F9 /* lasergreen.reality in Resources */,
 				055395702A1E24A8005344CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		051DE05A2A1F8A45002DB2F9 /* XCRemoteSwiftPackageReference "multipeer-session" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RyanKopinskyLLC/multipeer-session";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		051DE05B2A1F8A45002DB2F9 /* MultipeerSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 051DE05A2A1F8A45002DB2F9 /* XCRemoteSwiftPackageReference "multipeer-session" */;
+			productName = MultipeerSession;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0553955D2A1E24A8005344CE /* Project object */;
 }
